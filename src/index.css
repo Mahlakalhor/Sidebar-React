@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+body {
+  height: 100vh;
+  background-color: #f1f5f8;
+  font-family: "Open Sans", "sans-serif";
+}
+#root {
+  height: 100%;
+}
+@keyframes slowScale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+}
