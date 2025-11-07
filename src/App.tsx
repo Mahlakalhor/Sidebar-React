@@ -53,7 +53,7 @@ const App = () => {
       <aside
         className={`
           flex flex-col h-screen max-w-[400px] bg-white absolute top-0 w-full
-          transition-transform duration-300
+          transition-transform duration-600
           ${open ? "translate-x-0" : "-translate-x-full"}
         `}
       >
