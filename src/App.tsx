@@ -11,7 +11,7 @@ const App = () => {
         <svg
           // onClick={() => setOpen((p) => !p)}
           onClick={toggleSidebar}
-          className="absolute top-10 right-10 cursor-pointer hover:fill-[#c5e5fc] animate-[slowScale_1.5s_ease-in-out_infinite]"
+          className="absolute top-10 right-10 cursor-pointer hover:fill-[#c5e5fc] cursor-pointer animate-[slowScale_1.5s_ease-in-out_infinite]"
           width="40px"
           height="50px"
           viewBox="0 -5 32 32"
